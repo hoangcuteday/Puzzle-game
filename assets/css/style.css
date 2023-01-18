@@ -1,0 +1,51 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: #170f23;
+}
+.music{
+    position: relative;
+    color: #FF33CC;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+.music-icon_mute{
+    display: block;
+}
+.music-icon_on{
+    display: none;
+}
+.hide .music-icon_on{
+    display: block;
+}
+.hide .music-icon_mute{
+    display: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.side-bar{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#board{
+    border: 6px dashed #FF33CC;
+}
+.play-btn{
+    background-color: aquamarine;
+    text-decoration: none;
+    border-color: rebeccapurple;
+    font-size: 20px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+.play-btn:active{
+    opacity: .7;
+}

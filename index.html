@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/puzzle_game.png" type="image/x-icon" id="title_icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+</head>
+
+<body>
+    <div class="music">
+        <i class="fa-solid fa-volume-high music-icon_on"></i>
+        <i class="fa-solid fa-volume-xmark music-icon_mute"></i>
+    </div>
+    <audio src="./assets/sound/music.mp3" class="play"></audio>
+    <main>
+        <canvas id="board"></canvas>
+        <div class="side-bar">
+            <div>
+                <h1>TETRIS</h1>
+                <p>Score: <span id="sroce">0</span></p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+    </main>
+    <audio src="./assets/sound/sounds_clear.wav" id="sound-sroce"></audio>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
